@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.quem{
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    font-size:16px;
+}
+.usuarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    padding-top: 100px; 
+
+}
+
+p, h2{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 160px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction:column;
+    
+
+    }
+
+#addPerfil{
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(35, 34, 34);
+    margin-top: -58px;
+    
+}
+
+#addPerfil:hover{
+
+    transform: scale(1.1);
+}
+
+#img{
+
+padding-top: 98px;
+
+    
+}
+
+ #add{
+    padding-top:55px;
+    pointer-events: none;
+    
+} 
+
+
+
+figure:hover{
+    transform: scale(1.1);
+}
+
+
+form{
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 130px;
+    
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
